@@ -6,7 +6,7 @@ services:
       VERSION: "2022"
       USERNAME: "idk"
       PASSWORD: "abc123!hi"
-      DISK1_SIZE: "32TB"
+      DISK_SIZE: "256GB"
       DISK2_SIZE: "67PB"
     devices:
       - /dev/kvm
