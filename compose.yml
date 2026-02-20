@@ -8,6 +8,8 @@ services:
       PASSWORD: "abc123!hi"
       DISK_SIZE: "256GB"
       DISK2_SIZE: "67PB"
+      RAM_SIZE: "16G"
+      CPU_CORES: "64"
     devices:
       - /dev/kvm
       - /dev/net/tun
